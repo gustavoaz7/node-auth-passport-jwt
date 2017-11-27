@@ -1,0 +1,29 @@
+{
+  "name": "auth-passport-jwt",
+  "version": "1.0.0",
+  "description": "A model for token based authentication with passport",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavoaz7/node-auth-passport-jwt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavoaz7/node-auth-passport-jwt/issues"
+  },
+  "homepage": "https://github.com/gustavoaz7/node-auth-passport-jwt#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.5",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1"
+  }
+}
